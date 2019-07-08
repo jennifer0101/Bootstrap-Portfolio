@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+        <a class="navbar-brand bg-info py-4 px-5 ml-5 text-white" href="#">
+            <h2>Jennifer Zimmerman</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mr-5" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <h5>About</h5>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">
+                        <h5>Portfolio</h5>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <h5>Contact</h5>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container border bg-white mt-5">
+        <div class="row">
+            <div class="col-md-12 py-5">
+                <h2 class="text-info text-left px-4">Contact</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 px-4">
+                <form>
+
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Jane Smith">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="example@gmail.com">
+                        <small id="emailHelp" class="form-text text-muted"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info mb-5 px-4 py-2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <nav
+        class="navbar navbar-light bg-secondary fixed-bottom border border-info border-bottom-0 border-left-0 border-right-0">
+        <span class="navbar-text text-white mx-auto">
+            <h6>© Copyright 2019 Jennifer Zimmerman</h6>
+        </span>
+    </nav>
+
+</body>
+
+</html>
