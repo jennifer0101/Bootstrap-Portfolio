@@ -12,3 +12,91 @@ body {
 nav {
     border-bottom: 2px solid #cccccc;
 }
+
+#portitem1 {
+    position: relative;
+    float: left;
+    padding: 10px 20px 30px 0px;
+}
+
+#portitem2 {
+    position: relative;
+    float: left;
+    padding: 10px 0px 30px 20px;
+}
+
+#portitem3 {
+    clear: both;
+    position: relative;
+    float: left;
+    padding: 30px 20px 30px 0px;
+}
+
+#portitem4 {
+    position: relative;
+    float: left;
+    padding: 30px 0px 30px 20px;
+}
+
+#portitem5 {
+    clear: both;
+    position: relative;
+    float: left;
+    padding-top: 30px;
+    margin-bottom: 200px;
+}
+
+#hangman {
+    position: absolute;
+    bottom: 47px;
+    background-color: #00a3b6;
+    color: white;
+    width: 275px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#rpggame {
+    position: absolute;
+    bottom: 47px;
+    background-color: #00a3b6;
+    color: white;
+    width: 275px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#triviagame {
+    position: absolute;
+    bottom: 47px;
+    background-color: #00a3b6;
+    color: white;
+    width: 275px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#rutgers {
+    position: absolute;
+    bottom: 47px;
+    background-color: #00a3b6;
+    color: white;
+    width: 275px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#rockpaper {
+    position: absolute;
+    bottom: 17px;
+    background-color: #00a3b6;
+    color: white;
+    width: 275px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
