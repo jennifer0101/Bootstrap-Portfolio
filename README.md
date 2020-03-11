@@ -2,7 +2,7 @@
 
 A mobile responsive portfolio designed with Bootsrap.  
 
-[Jennifer Faye's Portfolio](https://jennifer0101.github.io/Bootstrap-Portfolio/)
+[Basic Bootstrap Portfolio](https://jennifer0101.github.io/Bootstrap-Portfolio/)
 
 ## Description
 
